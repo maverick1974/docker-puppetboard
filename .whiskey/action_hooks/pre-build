@@ -8,6 +8,6 @@ cd /app
 rm -rf .git
 rm -f .gitignore
 git init .
-git remote add origin https://github.com/camptocamp/puppetboard.git
+git remote add origin https://github.com/raphink/puppetboard.git
 git remote update
-git checkout epfl
+git checkout v4-api_reports
