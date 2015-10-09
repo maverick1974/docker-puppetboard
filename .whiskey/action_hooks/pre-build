@@ -11,7 +11,6 @@ git init .
 git remote add origin https://github.com/camptocamp/puppetboard.git
 git remote update
 git checkout epfl_pdb3
-git checkout master
 cat << EOF > settings.py
 import os
 
