@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-PUPPETBOARD_VERSION='global_default'
+PUPPETBOARD_VERSION='all_envs'
 
 apt-get update &&
 apt-get install -y git &&
@@ -22,4 +22,5 @@ PUPPETDB_PORT = 8081
 PUPPETDB_SSL_VERIFY = False
 PUPPETDB_KEY = '/app/puppetboard.key'
 PUPPETDB_CERT = '/app/puppetboard.crt'
+DEFAULT_ENVIRONMENT = '*'
 EOF
